@@ -11,9 +11,21 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 5. **Display Result**: Print the updated array with the replaced column.
 
 ## 🧾 Program
+```
+import numpy as np
 
-Add code here
+x = np.array([5, 2, 9, 7])
+y = np.array([3, 2, 8, 10])
 
+indices = np.where(x >= y)
+
+print("Array x:", x)
+print("Array y:", y)
+print("Indices where x >= y:", indices[0])
 ## Output
+<img width="1532" height="988" alt="image" src="https://github.com/user-attachments/assets/32a154bf-51d2-46e1-a6a1-1bacb0b36127" />
+```
+
 
 ## Result
+The NumPy program successfully finds the indices where elements in array x are greater than or equal to their corresponding elements in array y.
