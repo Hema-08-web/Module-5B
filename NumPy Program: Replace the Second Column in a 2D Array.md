@@ -22,9 +22,9 @@ indices = np.where(x >= y)
 print("Array x:", x)
 print("Array y:", y)
 print("Indices where x >= y:", indices[0])
+```
 ## Output
 <img width="1532" height="988" alt="image" src="https://github.com/user-attachments/assets/32a154bf-51d2-46e1-a6a1-1bacb0b36127" />
-```
 
 
 ## Result
